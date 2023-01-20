@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regisback"
+    tools:context=".registration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#3fff"
+        android:gravity="center"
+        android:padding="10dp"
+
+        >
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_margin="10dp"
+            android:id="@+id/addimage"
+            android:layout_gravity="center"
+            app:cardElevation="5dp">
+            <LinearLayout
+                android:id="@+id/profilePhoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_profile_photo"
+                >
+
+                <ImageView
+                    android:id="@+id/ViewPhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <EditText
+            android:id="@+id/full_name"
+            android:layout_marginTop="15dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Full name"
+            android:background="#3fff"
+            android:textColorHint="#FFFBF6"
+
+            />
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_marginTop="15dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="#3fff"
+            android:hint="username"
+            android:textColorHint="#FFFBF6"
+
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_marginTop="15dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:background="#3fff"
+            android:textColorHint="#FFFBF6"
+
+            />
+        <EditText
+            android:id="@+id/phone_no"
+            android:layout_marginTop="15dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:background="#3fff"
+            android:hint="Phone +880"
+            android:textColorHint="#FFFBF6"
+
+            />
+        <EditText
+            android:id="@+id/classs_id"
+            android:layout_marginTop="15dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="#3fff"
+            android:hint="Cricket / Football"
+            android:textColorHint="#FFFBF6"
+
+            />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginTop="15dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="#3fff"
+            android:hint="Password"
+            android:password="true"
+            android:textColorHint="#FFFBF6"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep me Signed in "
+            android:textColor="#FFFBF6"
+            android:hint="#FFFBF6"
+            android:layout_marginTop="15dp"
+            android:buttonTint="#FFFBF6"
+            />
+        <Button
+            android:id="@+id/signInbtn"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Signin"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFBF6"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#3fff"
+            android:layout_marginTop="15dp"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

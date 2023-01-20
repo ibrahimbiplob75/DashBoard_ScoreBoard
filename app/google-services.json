@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "497444468995",
+    "project_id": "department-hack",
+    "storage_bucket": "department-hack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497444468995:android:fc212a16a3e30781ee5136",
+        "android_client_info": {
+          "package_name": "com.example.admindashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497444468995-o6n758s6r1qmbl8l08b6hg15f8nrrmum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJIUD1MlVzacJpIOTV8vYKXmPFaIAYciI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497444468995-o6n758s6r1qmbl8l08b6hg15f8nrrmum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
